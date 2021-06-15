@@ -131,6 +131,15 @@
     height: 1px;
     background-color: #00A4E5;
 }
+.text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
+}
 .story__content{
 
 }
@@ -138,7 +147,13 @@
 
 }
 .content__title{
-
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1875px;
+    color: #48555B;
 }
 .content__text{
 
@@ -147,8 +162,27 @@
 
 }
 .images__item{
-
+    width: 140px;
+    height: 224px;
+    background-repeat: no-repeat;
+}
+.images__item:first-child{
+    background-image: url("img/WePlan.jpg");
+}
+.images__item:nth-child(2){
+    background-image: url("img/WeManage.jpg");
+}
+.images__item:last-child{
+    background-image: url("img/WeBuild.jpg");
 }
 .images__text{
 
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.1875px;
+    color: #FFFFFF;
+    text-transform: uppercase;
 }
