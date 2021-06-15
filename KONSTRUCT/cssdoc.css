@@ -107,14 +107,14 @@
 
 .story{
     width: 1438px;
-    height: 500px;
+    height: 425px;
     background: #FFFFFF;
 }
 .story__title{
     margin-top: 57px;
+}
+.story__name{
     text-align: center;
-    display: flex;
-    flex-direction: column;
 }
 .name{
     font-family: 'Open Sans', sans-serif;
@@ -128,7 +128,7 @@
 .line{
     margin-top: 10px;
     width: 50px;
-    height: 1px;
+    height: 2px;
     background-color: #00A4E5;
 }
 .text{
@@ -141,12 +141,13 @@
     color: #48555B;
 }
 .story__content{
-
+    display: flex;
 }
 .content__info{
-
+    flex-basis: 43%;
 }
 .content__title{
+    margin-top: 55px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -156,27 +157,34 @@
     color: #48555B;
 }
 .content__text{
-
+    margin-top: 30px;
 }
 .content__images{
-
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-between;
+    margin-top: 86px;
+    margin-left: 77px;
 }
 .images__item{
     width: 140px;
     height: 224px;
     background-repeat: no-repeat;
+    background: #D8D8D8;
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.3);
 }
-.images__item:first-child{
+.images__item_1{
     background-image: url("img/WePlan.jpg");
 }
-.images__item:nth-child(2){
+.images__item_2{
     background-image: url("img/WeManage.jpg");
 }
-.images__item:last-child{
+.images__item_3{
     background-image: url("img/WeBuild.jpg");
 }
 .images__text{
-
+    padding-top: 23px;
+    padding-left: 14px;
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -185,4 +193,140 @@
     letter-spacing: 0.1875px;
     color: #FFFFFF;
     text-transform: uppercase;
+}
+
+
+
+.capabilities{
+    width: 1438px;
+    height: 566px;
+    background: #ffffff;
+}
+.capabilities__name{
+    text-align: left;
+}
+.capabilities__line{
+    margin-left: 0;
+    margin-right: 0;
+}
+.capabilities__head{
+    margin-top: 19px;
+    display: flex;
+}
+.head__title{
+    margin: 0 0 auto 0;
+}
+.head__text{
+    padding-left: 105px;
+    flex-basis: 405px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.2px;
+    color: #48555B;
+}
+.head__button{
+    margin: 0 0 auto 0;
+    padding: 11px 29px 11px 29px;
+}
+.button{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background: #00A4E5;
+}
+.capabilities__content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 78px;
+}
+.content__block{
+    flex-basis: 33.33333%;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    box-sizing: border-box;
+}
+.block__image{
+    margin: 38px 0 0 23px;
+}
+.block__title{
+    margin: 25px 22px 0 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.426667px;
+    color: #48555B;
+}
+.block__text{
+    margin: 13px 22px 39px 23px;
+}
+
+
+
+.order{
+    width: 1438px;
+    height: 498px;
+    background-image: url("img/bg2.jpg");
+    background-repeat: no-repeat;
+}
+.order__title{
+    padding-top: 120px;
+    width: 350px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: #48555B;
+}
+.order__button{
+    display: flex;
+    margin-top: 46px;
+    padding: 11px 26px 11px 26px;
+}
+
+
+
+.singup{
+    width: 1438px;
+    height: 100px;
+    background: #171819;
+}
+
+
+
+.about{
+    width: 1438px;
+    height: 240px;
+    background: #141A20;
+}
+
+
+
+.footer{
+    width: 1438px;
+    height: 60px;
+    background: #171819;
+}
+.footer__text{
+    padding-top: 22px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
 }
