@@ -303,6 +303,29 @@
     height: 100px;
     background: #171819;
 }
+.singup__content{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.singup__title{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 30px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.singup__form-email{
+
+}
+.singup__input{
+
+}
+.singup__button{
+
+}
 
 
 
@@ -310,6 +333,90 @@
     width: 1438px;
     height: 240px;
     background: #141A20;
+}
+.about__title{
+    margin-top: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.about__list-1{
+    margin-top: 10px;
+}
+.about__list-2{
+    margin-top: 66px;
+}
+.list-element{
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 11px;
+    line-height: 25px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.col-5__content{
+    margin-top: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 16px;
+    letter-spacing: 0.846154px;
+    color: #FFFFFF;
+}
+.about__content{
+    display: flex;
+}
+.about__col-1{
+    width: 250px;
+}
+.about__col-2{
+    flex-basis: 10%;
+    margin-left: 50px;
+}
+.about__col-3{
+    flex-basis: 10%;
+}
+.about__col-4{
+    flex-basis: 10%;
+    margin-right: 8px;
+}
+.about__col-5{
+    width: 141px;
+}
+.about__col-6{
+    margin-top: 73px;
+    margin-left: 31px;
+}
+.col-1__logo{
+    margin-top: 19px;
+    margin-bottom: 15px;
+}
+.col-1__text{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    line-height: 19px;
+    letter-spacing: 0.85px;
+    color: #FFFFFF;
+}
+.about__social{
+    margin-right: 25px;
+    color: #FFFFFF;
+    width: 12px;
+    height: 12px;
+}
+.about__social:last-child{
+    margin-right: 0;
 }
 
 
